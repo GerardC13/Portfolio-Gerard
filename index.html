@@ -1,12 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
+    <title>Gerard Camuñas - Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #eee;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 4px solid #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>¡Bienvenido a mi sitio web en GitHub Pages!</h1>
-    <p>Este es un ejemplo de un sitio web estático alojado en GitHub Pagesffff.</p>
+
+<header>
+    <h1>Gerard Camuñas - Desarrollador Web</h1>
+    <nav>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <ul>
+            <li><strong>Desarrollador Full Stack</strong> - Empresa XYZ (2021 - Presente)</li>
+            <li><strong>Desarrollador Front-End</strong> - Empresa ABC (2019 - 2021)</li>
+            <li><strong>Desarrollador Junior</strong> - Startup Tech (2018 - 2019)</li>
+        </ul>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML5, CSS3, Bootstrap</li>
+            <li>JavaScript, React, Node.js</li>
+            <li>SQL, Python</li>
+            <li>Diseño de interfaces y experiencia de usuario (UI/UX)</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li><strong>Aplicación de retos para moteros</strong> - App móvil que incluye desafíos y componentes sociales (en desarrollo).</li>
+            <li><strong>Plataforma de comercio electrónico</strong> - E-commerce completo con carrito de compras y pasarela de pagos.</li>
+            <li><strong>Sistema de gestión de tareas</strong> - Aplicación web para gestionar proyectos y tareas, con integración de calendarios.</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en <a href="mailto:gerard@ejemplo.com">gerard@ejemplo.com</a>.</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2024 Gerard Camuñas. Todos los derechos reservados.</p>
+</footer>
+
 </body>
 </html>
